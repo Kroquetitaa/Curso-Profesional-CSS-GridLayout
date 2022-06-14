@@ -1,0 +1,88 @@
+.wrapper{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 5px;
+    font-family: sans-serif;
+    width: 550px;
+}
+
+.container{
+    background: turquoise;
+    width: 180px;
+    height: 180px;
+    position: relative;
+}
+
+.element{
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    padding-top: 18px;
+    box-sizing: border-box;
+}
+
+.element1, .element2, .element3{
+    background: papayawhip;
+    position: absolute;
+}
+
+.element1{
+    left: 0;
+    top: 0;
+}
+
+.element2{
+    left: 0;
+    top: 50%;
+    transform: translate(0, -50%);
+}
+
+.element3{
+    left: 0;
+    top: 100%;
+    transform: translate(0, -100%);
+}
+
+.element4, .element5, .element6{
+    background: pink;
+    position: absolute;
+}
+
+.element4{
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+.element5{
+    right: 50%;
+    bottom: 50%;
+    transform: translate(50%, 50%);
+}
+
+.element6{
+    left: 100%;
+    top: 100%;
+    transform: translate(-100%,-100%);
+}
+
+.element7, .element8, .element9{
+    background: aliceblue;
+    position: absolute;
+}
+
+.element7{
+    left: 100%;
+    transform: translate(-100%,0);
+}
+
+.element8{
+    left: 100%;
+    top: 50%;
+    transform: translate(-100%,-50%);
+}
+
+.element9{
+    left: 100%;
+    top: 100%;
+    transform: translate(-100%,-100%);
+}
