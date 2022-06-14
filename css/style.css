@@ -1,0 +1,111 @@
+.wrapper{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 5px;
+    font-family: sans-serif;
+    width: 550px;
+}
+
+.element{
+    width: 60px;
+    height: 60px; 
+    text-align: center;
+    padding-top: 10px;
+    box-sizing: border-box;
+}
+
+.container1{
+    background: turquoise;
+    width: 180px;
+    height: 180px;
+    text-align: left;
+    line-height: 180px;
+}
+
+.element1{
+    background: papayawhip;
+    /* margin: 0; */
+    display: inline-block;
+    line-height: 45px;
+    vertical-align: top;
+}
+
+.element2{
+    background: papayawhip;
+    /* margin: 60px 0; */
+    display: inline-block;
+    line-height: 20px;
+    vertical-align: middle;
+}
+
+.element3{
+    background: papayawhip;
+    /* margin: 120px 0; */
+    display: inline-block;
+    line-height: 20px;
+    vertical-align: bottom;
+}
+
+.container2{
+    background: turquoise;
+    width: 180px;
+    height: 180px;
+    text-align: center;
+    line-height: 180px;
+}
+
+.element4{
+    background: pink;
+    /* margin: 0px 60px; */
+    display: inline-block;
+    line-height: 20px;
+    vertical-align: top;
+}
+
+.element5{
+    background: pink;
+    /* margin: 60px 60px; */
+    display: inline-block;
+    line-height: 20px;
+    vertical-align: middle;
+}
+
+.element6{
+    background: pink;
+    /* margin: 60px 60px 60px; */
+    display: inline-block;
+    line-height: 20px;
+    vertical-align: bottom;
+}
+
+.container3{
+    background: turquoise;
+    width: 180px;
+    height: 180px;
+    text-align: right;
+    line-height: 180px;
+}
+
+.element7{
+    background: papayawhip;
+    /* margin: 0px 0px 0px 120px; */
+    display: inline-block;
+    line-height: 40px;
+    vertical-align: top;
+}
+
+.element8{
+    background: papayawhip;
+    /* margin: 60px 60px 0px 60px; */
+    display: inline-block;
+    line-height: 20px;
+    vertical-align: middle;
+}
+
+.element9{
+    background: papayawhip;
+    /* margin: 120px; */
+    display: inline-block;
+    line-height: 20px;
+    vertical-align: bottom;
+}
