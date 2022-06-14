@@ -1,0 +1,22 @@
+.card{
+    background: #ffdada;
+    width: 300px;
+    height: 150px;
+    border-radius: 10px;
+    overflow: hidden;
+    font-family: monospace;
+}
+
+.card__header{
+    background: lightgreen;
+    height: 50px;
+    padding-top: 10px;
+    padding-left: 20px;
+}
+
+.card__main{
+    background: green;
+    height: 50px;
+    padding-top: 10px;
+    padding-left: 20px;
+}
