@@ -36,3 +36,5 @@ margin-left: 25px;
 Otra forma de realizarlo directamente.  
 > Ejemplo:  
 margin: 10px 15px 20px 25px;
+
+### Técnicas de alineamiento antes de CSS Grid: table-cell y positions

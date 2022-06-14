@@ -1,0 +1,75 @@
+.element{
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    padding-top: 10px;
+    box-sizing: border-box;
+}
+
+.container{
+    background: turquoise;
+    border: 1px solid white;
+    display: table-cell;
+    width: 180px;
+    height: 180px;
+}
+
+.container1, .container2, .container3{
+    text-align: left;
+}
+
+.container4, .container5, .container6{
+    text-align: right;
+}
+
+.container7, .container8, .container9{
+    text-align: right;
+}
+
+.element1, .element2, .element3{
+    background: papayawhip;
+}
+
+.element4, .element5, .element6{
+    background: pink;
+}
+
+.element7, .element8, .element9{
+    background: aliceblue;
+}
+
+.container1{
+    vertical-align: top;
+}
+
+.container2{
+    vertical-align: middle;
+}
+
+.container3{
+    vertical-align: bottom;
+}
+
+.container4{
+    vertical-align: top;
+}
+
+.container5{
+    vertical-align: middle;
+}
+
+.container6{
+    vertical-align: bottom;
+}
+
+.container7{
+    vertical-align: top;
+}
+
+.container8{
+    vertical-align: middle;
+}
+
+.container9{
+    vertical-align: bottom;
+}
